@@ -13,6 +13,9 @@ PROBLEMA: creare un array con degli oggetti e stampare su DOM
     1.2-Gli object devono contenere come valore i dati forniti
 2-Stampo in console.log le informazioni degli object
 3-Creo un ciclo for per leggere i sigoli valori degli object
-4-Le stesse informazioni le stampo a video 
+4-Le stesse informazioni le stampo a video
+    4.1 Creo la classe nel html
+    4.2-Stilizzo nel css
+    4.3-La richiamo nel js 
 
 BONUS

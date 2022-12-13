@@ -32,8 +32,18 @@ let team = [
     },
 ]
 
+const listContainer = document.querySelector(`.worker-list`);
+
+let element = ``;
+
 // Creo un ciclo per visualizzare singolarmete i valori
 for (let i = 0; i < team.length; i++){
+
     let worker = team[i];
-    console.log(`${worker.name} ${worker.role} ${worker.img}`);
+
+    let element = `<li class="list-item">${worker.name}, ${worker.role}, ${worker.img}</li>`;
+    
+    listContainer.innerHTML += element;
+
+    // console.log(`${worker.name} ${worker.role} ${worker.img}`);
 }
