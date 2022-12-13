@@ -16,6 +16,6 @@ PROBLEMA: creare un array con degli oggetti e stampare su DOM
 4-Le stesse informazioni le stampo a video
     4.1 Creo la classe nel html
     4.2-Stilizzo nel css
-    4.3-La richiamo nel js 
+    4.3-La richiamo nel js creando al suo interno gli elementi che appariranno a video
 
 BONUS
