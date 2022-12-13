@@ -32,4 +32,8 @@ let team = [
     },
 ]
 
-console.log(team)
+// Creo un ciclo for con dentro un ciclo for in per visualizzare singolarmete i valori
+for (let i = 0; i < team.length; i++){
+    let worker = team[i];
+    console.log(`${worker.name} ${worker.role} ${worker.img}`);
+}
