@@ -4,11 +4,20 @@
     box-sizing: border-box;
 }
 
-.container{
+/* .container{
     width: 1000px;
     margin: 3rem auto;
+} */
+
+/* .worker-list{
+    list-style-type: none;
+} */
+
+.team-card{
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
 }
 
-.worker-list{
-    list-style-type: none;
+.card-text{
+    text-align: center;
 }

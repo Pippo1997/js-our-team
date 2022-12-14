@@ -64,3 +64,28 @@ let team = [
 // }
 
 //**********BONUS 2 *********
+
+function drawTeamWorker(person)
+{
+    const listContainer = document.getElementById(`card-container`);
+
+    let worker_card=`
+    <div class="team-card">
+        <div class="team-img">
+            <img class="img-fluid" src="./img/${person.img}" alt="${person.img}"/>
+        </div>
+        <div class="card-text">
+            <h4>${person.name}</h4>
+            <p>${person.role}</p>
+        </div>
+    </div>
+    `
+
+    listContainer.innerHTML += worker_card
+}
+
+for(let i = 0; i<team.length; i++){
+    
+    let worker = team[i];
+    drawTeamWorker(worker);
+}
