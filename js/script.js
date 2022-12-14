@@ -8,7 +8,7 @@ let team = [
     {
         name: "Angela Carrol",
         role: "Chief Editor",
-        img: "angela-carrol-chief-editor.jpg"
+        img: "angela-caroll-chief-editor.jpg"
     },
     {
         name: "Walter Gordon",
@@ -32,18 +32,35 @@ let team = [
     },
 ]
 
-const listContainer = document.querySelector(`.worker-list`);
+// const listContainer = document.querySelector(`.worker-list`);
 
-let element = ``;
+// let element = ``;
 
 // Creo un ciclo per visualizzare singolarmete i valori
-for (let i = 0; i < team.length; i++){
+// for (let i = 0; i < team.length; i++){
 
-    let worker = team[i];
+//     let worker = team[i];
 
-    let element = `<li class="list-item">${worker.name}, ${worker.role}, ${worker.img}</li>`;
+//     let element = `<li>${worker.name}, ${worker.role}, ${worker.img}</li>`;
     
-    listContainer.innerHTML += element;
+//     listContainer.innerHTML += element;
 
     // console.log(`${worker.name} ${worker.role} ${worker.img}`);
-}
+// }
+
+//**********BONUS 1 *********
+
+// const listContainer = document.getElementById(`card-container`);
+
+// for (let i = 0; i < team.length; i++){
+
+//     let worker = team[i];
+
+//     listContainer.innerHTML += `
+//     <img src="./img/${worker.img}" width="200px"/>
+//     <p>${worker.name}</p>
+//     <p>${worker.role}</p>
+//     `
+// }
+
+//**********BONUS 2 *********
